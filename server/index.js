@@ -19,7 +19,7 @@ connectDB();
 app.use(express.json());
 app.use(morgan('dev'));
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://shopy-backend-3rha.onrender.com/",
     methods: ['GET', 'POST'],
     credentials: true,
 }));
