@@ -22,6 +22,7 @@ app.use(cors({
     origin: "https://shopy-kq3s.vercel.app",
     methods: ['GET', 'POST'],
     credentials: true,
+    optionsSuccessStatus: 200
 }));
 
 // Basic route to confirm server is running
