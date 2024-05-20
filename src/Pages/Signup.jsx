@@ -19,8 +19,7 @@ const Signup = () => {
     }
 
     try {
-      // Send a POST request to the backend to create a new user
-      const response = await axios.post("http://localhost:7000/api/v1/auth/register", {
+      const response = await axios.post("https://shopy-backend-3rha.onrender.com/api/v1/auth/register", {
         username,
         password,
         confirmPassword,
